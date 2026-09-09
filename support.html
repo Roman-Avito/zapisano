@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Поддержка — Записано</title>
+<style>
+  :root { --text:#101724; --muted:#5f6b80; --line:#e5eaf2; --accent:#0d7ab0; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; padding:32px 20px 72px;
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    color:var(--text); background:#fff;
+  }
+  main { max-width:720px; margin:0 auto; }
+  .brand {
+    display:flex; align-items:center; gap:12px;
+    padding-bottom:20px; margin-bottom:28px; border-bottom:1px solid var(--line);
+  }
+  .brand .mark {
+    width:38px; height:38px; border-radius:11px; flex:0 0 38px;
+    background:linear-gradient(160deg,#3fa9dc,#0d7ab0);
+  }
+  .brand b { font-size:17px; }
+  .brand span { color:var(--muted); font-size:13px; display:block; font-weight:400; }
+  h1 { font-size:27px; line-height:1.25; margin:0 0 6px; }
+  h2 { font-size:19px; margin:34px 0 10px; }
+  p { margin:0 0 14px; }
+  ul { margin:0 0 14px; padding-left:22px; }
+  li { margin-bottom:6px; }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:30px 0; }
+  .card { background:#f4f7fb; border:1px solid var(--line); border-radius:14px;
+          padding:16px 18px; margin:18px 0; }
+  .card p:first-child { margin-top:0; }
+  .card p:last-child { margin-bottom:0; }
+  footer { margin-top:44px; padding-top:18px; border-top:1px solid var(--line);
+           color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <div class="mark"></div>
+    <div><b>Записано</b><span>запись клиентов для мастера</span></div>
+  </div>
+
+  <h1>Поддержка</h1>
+  <hr>
+
+  <div class="card">
+    <p>Пишите на <a href="mailto:info@reotest.ru">info@reotest.ru</a>. Отвечает человек, который это приложение и сделал.</p>
+  </div>
+
+  <h2>Если что-то не работает</h2>
+  <p>Чтобы разобраться с первого письма, приложите:</p>
+  <ul>
+    <li>модель телефона и версию Android — «Настройки → О телефоне»;</li>
+    <li>версию приложения — она внизу вкладки «Ещё»;</li>
+    <li>что вы делали и что произошло вместо ожидаемого;</li>
+    <li>снимок экрана, если это видно глазами.</li>
+  </ul>
+
+  <h2>Не приходят напоминания</h2>
+  <p>Это самая частая жалоба, и почти всегда дело не в приложении, а в настройках телефона: Android усыпляет приложения вместе с их будильниками. На телефонах Xiaomi, Redmi, POCO, Huawei, Honor, Oppo, Realme и Vivo это происходит почти всегда.</p>
+  <p>В приложении есть экран, который открывает нужные настройки сам: <strong>«Ещё → Напоминания → Не приходят напоминания»</strong>. Пройдите три шага на нём и нажмите проверку — уведомление должно прийти при закрытом приложении.</p>
+
+  <h2>Как отменить подписку</h2>
+  <p>Отмена производится <strong>в магазине RuStore</strong>, а не в приложении: приложение не имеет технической возможности отменить подписку за вас.</p>
+  <p>Откройте RuStore → «Профиль» → «Подписки» → «Записано Про» → «Отменить подписку».</p>
+  <p>После отмены доступ сохраняется до конца оплаченного периода. Данные при этом никуда не деваются: они остаются на телефоне, их видно, можно править и выгрузить копией.</p>
+
+  <h2>Как вернуть деньги</h2>
+  <p>Заявление на возврат подаётся через магазин RuStore — он проводил платёж, он же его и возвращает. Если магазин не решает вопрос, напишите нам на <a href="mailto:info@reotest.ru">info@reotest.ru</a>.</p>
+
+  <h2>Как перенести данные на другой телефон</h2>
+  <p>Синхронизации между устройствами пока нет. Перенос делается копией:</p>
+  <ul>
+    <li>на старом телефоне: «Ещё → Резервная копия → Создать копию»;</li>
+    <li>отправьте полученный файл себе — в мессенджер, на почту, в облако;</li>
+    <li>на новом телефоне откройте приложение и выберите «У меня есть копия» либо «Ещё → Резервная копия → Восстановить».</li>
+  </ul>
+  <p>Копия содержит всё: записи, клиентов, услуги, деньги и фотографии.</p>
+
+  <h2>Что будет с данными, если не оплачивать</h2>
+  <p>Ничего. Данные остаются на телефоне, их видно, можно искать, править, удалять и выгрузить копией — бессрочно и без оплаты. Без подписки нельзя только заводить <em>новые</em> записи, клиентов, услуги и расходы.</p>
+  <p>Платная стена никогда не встанет между вами и вашими данными.</p>
+
+  <footer>ООО «РеоТест» · info@reotest.ru</footer>
+</main>
+</body>
+</html>
